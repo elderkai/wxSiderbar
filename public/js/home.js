@@ -106,4 +106,4 @@ $(".showDetail").click(function(a){
       // 使用刚指定的配置项和数据显示图表。
     setTimeout(() => {
     myChart.setOption(option);
-    }, 1000);
+    }, 500);
