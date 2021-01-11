@@ -62,8 +62,8 @@ $(".showDetail").click(function(a){
                 name: '剩余风险保额分布',
                 type: 'pie',
                 selectedMode: 'single',
-                radius: '80%',
-                center: ['50%', '50%'],
+                radius: '70%',
+                center: ['52%', '50%'],
                 data: [
                     {value: 40, name: '寿险   40w',
                     label: {
@@ -104,5 +104,6 @@ $(".showDetail").click(function(a){
     
 
       // 使用刚指定的配置项和数据显示图表。
-      myChart.setOption(option);
-  
+    setTimeout(() => {
+    myChart.setOption(option);
+    }, 300);
