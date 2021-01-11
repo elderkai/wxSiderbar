@@ -10,7 +10,7 @@ layui.use('element', function(){
     $(".titleOpen").show();
     $(".morePolicy").show();
 });
-  $(".titleOpen").click(function(){
+  $(".btnClose").click(function(){
     $(".btn_showAll").show();
     $(".titleClose").show();
     $(".titleOpen").hide();
