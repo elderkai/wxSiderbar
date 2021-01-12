@@ -28,6 +28,7 @@ $(".showDetail").click(function(a){
             //iframe层
             layer.open({
                 area: ['750px'],
+                shadeClose:false,
                     type: 1,
                     content: $('.box_policDetail') //这里content是一个DOM，这个元素要放在body根节点下
                 });
@@ -37,6 +38,9 @@ $(".showDetail").click(function(a){
      })
 
 })
+
+
+
       // 基于准备好的dom，初始化echarts实例
       var myChart = echarts.init(document.getElementById('echartsDemo'));
  
