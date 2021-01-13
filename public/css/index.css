@@ -1,0 +1,307 @@
+.layui-tab-title {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding-top: 26px;
+    margin-top: 20px;
+  }
+  .layui-tab-title li {
+    padding: 0 37px;
+    height: 64px;
+    font-size: 42px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #4D4D4D;
+  }
+  .layui-tab-title .layui-this:after {
+    height: 8px;
+    width: 50%;
+    left: 25%;
+    top: 56px;
+    font-weight: 400;
+    background: #528ADD;
+    border-radius: 4px;
+    box-sizing: inherit;
+  }
+  .layui-tab-brief > .layui-tab-more li.layui-this:after,
+  .layui-tab-brief > .layui-tab-title .layui-this:after {
+    border-bottom: 0px;
+    border-radius: 4px;
+  }
+  .layui-tab-brief > .layui-tab-title .layui-this {
+    font-weight: bold;
+    color: #749FE3;
+  }
+  .userInfoBox .title {
+    height: 33px;
+    font-size: 33px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 33px;
+    padding: 43px 0 22px 50px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+  .userInfoBox .userInfo_item {
+    display: flex;
+    padding: 20px 60px 19px;
+    border-bottom: 1px solid #fafafa;
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .userInfoBox .userInfo_item .item_title {
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    font-weight: Regular;
+    color: #666666;
+    height: 29px;
+    line-height: 29px;
+    width: 250px;
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 20px;
+  }
+  .userInfoBox .userInfo_item .item_text {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 29px;
+  }
+  .layui-tab-content {
+    padding: 0;
+  }
+  .layui-tab {
+    margin: 0;
+  }
+  .info_policy .title {
+    height: 33px;
+    font-size: 33px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 33px;
+    padding: 44px 0 23px 50px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+  .info_policy .policy_list .listItem {
+    padding: 19px 50px;
+    border-bottom: 1px solid #FBFBFB;
+  }
+  .info_policy .policy_list .listItem .icon_policy {
+    width: 21px;
+    height: 21px;
+    background: linear-gradient(20deg, #6CD99D, #2EE681);
+    border-radius: 50%;
+  }
+  .info_policy .policy_list .listItem .icon_grey {
+    background: #CCCCCC;
+    border-radius: 50%;
+  }
+  .info_policy .policy_list .listItem div {
+    display: inline-block;
+  }
+  .info_policy .policy_list .listItem .text {
+    margin-left: 23px;
+    line-height: 50pp;
+  }
+  .info_policy .policy_list .listItem .text span {
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #666666;
+  }
+  .info_policy .policy_list .listItem .text .policyDesc {
+    margin-left: 21px;
+    height: 25px;
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 25px;
+  }
+  .info_policy .policy_list .listItem .btn_detail {
+    float: right;
+    width: 94px;
+    height: 42px;
+    background: linear-gradient(175deg, #6ABEFF, #26A1FF);
+    border-radius: 21px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 25px;
+  }
+  .info_policy .policy_list .btnClose {
+    height: 25px;
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 25px;
+    text-align: left;
+  }
+  .info_policy .policy_list .btnClose .layui-icon {
+    float: right;
+  }
+  .info_policy .policy_list .btn_showAll .text {
+    margin: 0;
+  }
+  .info_policy .policy_list .btn_showAll .text .policyDesc {
+    margin: 0;
+  }
+  .info_policy .policy_list .btn_showAll .layui-icon {
+    float: right;
+    line-height: 25px;
+  }
+  .info_policy .eharts .title {
+    border-bottom: none;
+  }
+  .info_policy .eharts .btn_showDetail {
+    width: 625px;
+    height: 83px;
+    background: linear-gradient(175deg, #6ABEFF, #26A1FF);
+    border-radius: 42px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 83px;
+    font-size: 38px;
+    margin: 60px auto;
+    margin-top: 0;
+  }
+  .info_policy .eharts #echartsDemo {
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+  .info_policy .titleOpen {
+    padding-left: 35px;
+  }
+  .titleOpen {
+    display: none;
+  }
+  .morePolicy {
+    display: none;
+  }
+  .layui-layer-title {
+    display: none;
+  }
+  .textType {
+    display: inline-block;
+    width: 212px;
+    height: 25px;
+    text-align: right;
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+  .hide {
+    display: none;
+  }
+  .layui-layer {
+    border-radius: 25px !important;
+    left: 25px !important;
+    width: 690px !important;
+  }
+  .layui-layer-setwin {
+    top: 820px !important;
+    right: 310.5px !important;
+  }
+  .layui-layer-ico {
+    background: url("../imgs/icon1.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+  }
+  .layui-layer-setwin .layui-layer-ico {
+    margin: 0;
+    width: 46px;
+    height: 46px;
+  }
+  .layui-layer-shade {
+    opacity: .4 !important;
+  }
+  .box_policDetail {
+    padding: 31px 18px 35px;
+    width: 100%;
+    height: 790px;
+    display: none;
+    box-sizing: border-box;
+  }
+  .box_policDetail .boxDetail {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+  }
+  .box_policDetail .title {
+    height: 33px;
+    font-size: 33px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 33px;
+    padding-left: 56px;
+    padding: 35px 0 35px 24px;
+    border-bottom: 1px solid #F0F0F0;
+    white-space: nowrap;
+  }
+  .box_policDetail .title span {
+    width: 94px;
+    height: 42px;
+    background: linear-gradient(175deg, #6ABEFF, #26A1FF);
+    border-radius: 13px;
+    color: #fff;
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+  }
+  .box_policDetail .policyItem {
+    padding-left: 56px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #666666;
+    border-bottom: 1px solid #FCFCFC;
+  }
+  .box_policDetail .policyId {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #666666;
+    line-height: 25px;
+    height: 25px;
+    padding-top: 27px;
+    padding-bottom: 20px;
+  }
+  .box_policDetail .policyId span {
+    font-weight: 100;
+  }
+  .btnState {
+    width: 400px;
+    height: 60px;
+    background: linear-gradient(20deg, #6CD99D, #2EE681);
+    border-radius: 30px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 60px;
+    text-align: center;
+    font-size: 29px;
+    font-family: Microsoft YaHei;
+    margin-top: 44px;
+  }
+  .layui-layer-content {
+    height: 790px !important;
+  }
+  .layui-layer-setwin .layui-layer-close1 {
+    zoom: 1.5 !important;
+  }
+  
